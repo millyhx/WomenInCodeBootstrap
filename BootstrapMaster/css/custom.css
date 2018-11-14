@@ -1,0 +1,112 @@
+.content {
+  background-image: url('../images/background.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+  border-radius:0;
+  min-height:600px;
+}
+
+#about {
+  background-color: rgba(32,35,41,0.9);
+  color:#ddd;
+  padding:50px 0;
+}
+
+.form-inline label {
+  font-size: 20px;
+  font-weight:bold;
+  color:white;
+  width:100%;
+  justify-content: flex-start;
+}
+
+.form-inline input {
+  min-width:300px;
+  margin-right: 10px;
+}
+
+.navbar {
+  background-color:rgba(32,35,41,0.8);
+}
+
+.content {
+  padding-top:100px;
+}
+
+.content h1 {
+  font-family: 'Titillium Web', sans-serif;
+  color:black;
+  background-color:white;
+}
+
+.btn-twitter {
+  background-color: #1da1f2;
+}
+
+.btn-facebook {
+  background-color: #3b5998;
+}
+
+.btn-pinterest {
+  background-color: #bd081c;
+}
+
+#social-buttons .btn-primary {
+  border:none;
+}
+
+.btn-twitter:hover {
+  background-color: #60bdf6;
+}
+
+.btn-facebook:hover {
+  background-color: #768bb7;
+}
+
+.btn-pinterest:hover {
+  background-color: #d15260;
+}
+
+
+
+h2 {
+  margin-bottom:50px;
+  margin-top:50px;
+}
+
+blockquote {
+  line-height: 1.2;
+}
+
+.blockquote-footer {
+  font-size:70%;
+}
+
+#buzz {
+  padding-top:50px;
+  padding-bottom:50px;
+}
+
+#colophon {
+  padding-top:20px;
+}
+
+#colophon p {
+  font-size:80%;
+  color:grey;
+}
+
+#colophon a {
+  color:grey;
+  text-decoration:underline;
+}
+
+@media onyl screen and (max-width: 576px;) {
+  .content h1 {
+    font-size:40px;
+  }
+
+  .form-inline button {
+    margin-top:10px;
+  }
+}
