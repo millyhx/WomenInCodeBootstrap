@@ -29,7 +29,7 @@
 }
 
 .navbar {
-  background-color:rgba(32,35,41,0.8);
+  background-color:#172838;
 }
 
 .content {
@@ -97,12 +97,11 @@ blockquote {
 
 #colophon p {
   font-size:80%;
-  color:grey;
+  color:black;
 }
 
-#colophon a {
-  color:grey;
-  text-decoration:underline;
+#about {
+  background-color:#172838;
 }
 
 @media onyl screen and (max-width: 576px;) {
