@@ -117,3 +117,14 @@ blockquote {
 h2 {
   font-family: 'VT323', monospace;
 }
+
+#quote {
+  padding-top:400px;
+  font-size:35px;
+  background-color:#f2f2f2;
+  color:black;
+  border:10px;
+  border-radius: 15px;
+  margin-top:50px;
+  padding-bottom:400px;
+}
