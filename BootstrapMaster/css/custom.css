@@ -144,7 +144,7 @@ p {
 
 /*media queries */
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1024px) {
   #code_image {
     margin-top:50px;
     border-radius:15px;
