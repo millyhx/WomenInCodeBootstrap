@@ -7,6 +7,7 @@
   margin-bottom:50px;
 }
 
+}
 #about {
   background-color: rgba(32,35,41,0.9);
   color:#ddd;
@@ -23,14 +24,14 @@ blockquote h3:before {
   content:open-quote;
   font-weight:bold;
   font-size:100px;
-  color:black;
+  color:orange;
 }
 
 blockquote h3:after {
   content:close-quote;
   font-weight:bold;
   font-size:100px;
-  color:black;
+  color:orange;
 }
 
 
@@ -119,6 +120,7 @@ blockquote {
 
 #colophon {
   padding-top:50px;
+
 }
 
 #colophon p {
@@ -126,9 +128,7 @@ blockquote {
   color:black;
 }
 
-#about {
-  background-color:#172838;
-}
+
 
   .form-inline button {
     margin-top:10px;
