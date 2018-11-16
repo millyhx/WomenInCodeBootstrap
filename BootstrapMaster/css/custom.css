@@ -16,16 +16,6 @@
 
 }
 
-.border {
-  border:10px;
-}
-
-.border:hover {
-  border-color:black;
-}
-
-
-
 
 blockquote h3 {
   font-size:21px;
