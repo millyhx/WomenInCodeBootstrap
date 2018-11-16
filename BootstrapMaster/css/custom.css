@@ -16,7 +16,6 @@
 
 }
 
-
 blockquote h3 {
   font-size:21px;
 }
@@ -35,12 +34,12 @@ blockquote h3:after {
   color:orange;
 }
 
-
-
-img:hover {
-  border:10px;
-  border-color:black;
+a:hover img {
+  border:10px solid #172838;
 }
+
+
+
 
 .form-inline label {
   font-size: 20px;
