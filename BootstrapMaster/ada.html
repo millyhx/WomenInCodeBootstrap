@@ -5,14 +5,16 @@
 	<title>Ada Lovelace</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	<script src ="script.js"></script>
 	<link rel="stylesheet" href="css/custom.css" />
-
 </head>
-ls
+
 <body>
+<!--BUTTON TO DIRECT USER TO TOP OF PAGE -->
 <button onclick="topFunction()" class="btn btn-primary btn-lg" id="myBtn" title="Go to top">Go to top</button>
+<!--NAVIGATION BAR -->
 	<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
 		<div class="container">
 			<a class="navbar-brand" href="index.html">
@@ -26,33 +28,30 @@ ls
 					<a class="nav-item nav-link btn btn-outline-success" href="ada.html">Ada Lovelace</a>
 					<a class="nav-item nav-link" href="katherine.html">Katherine Johnson </a>
 					<a class="nav-item nav-link" href="grace.html">Grace Hopper </a>
-				</div>
-			</div>
-		</div>
-		<!--closes the container tag -->
+				</div><!--NAVBAR DIV -->
+			</div><!--COLLAPSE NAVBAR DIV -->
+		</div><!--CONTAINER DIV -->
 	</nav>
 
-	<!--first section of the webpage -->
+	<!--HEADER-->
 	<header class="content">
 		<div class="containter">
 			<div class="row">
 				<div class="col-md-8">
 					<h1 class="display-4">Ada Lovelace</h1>
-				</div>
-				<!--/.col-md-8 -->
+				</div><!--COLUMN -->
 				<div class="col-md-4"></div>
-				<!--/.col-md-4 -->
-			</div>
-			<!--/.row of content -->
-		</div>
-		<!--closes the container tag -->
-	</header><!-- .content -->
+			</div><!--ROW -->
+		</div><!--CONTAINER -->
+	</header>
 
 	<!-- second section of the webpage -->
 	<section id="second-section" class="text-center">
 		<div class="container">
 			<h1>Who is Ada Lovelace?</h1>
 			<div class="row">
+
+				<!--COLUMN 1 -->
 				<div class="col-md-4">
 					<h2><small class="text-muted">A bit about her</small></h2>
 					<p>Augusta Ada King-Noel, Countess of Lovelace (née Byron) was an English mathematician and writer, chiefly known for her work on Charles Babbage's proposed mechanical general-purpose computer, the Analytical Engine. She was the first to
@@ -60,33 +59,31 @@ ls
 						"computing machine" and the first computer programmer. </p>
 
 
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-lg btn-info" data-toggle="modal" data-target="#exampleModalCenter" style= "margin-top:20px; margin-bottom:20px;">
-  Interesting Fact
-</button>
+					<!--INTERESTING FACT BUTTON -->
+					<button type="button" class="btn btn-primary btn-lg btn-info" data-toggle="modal" data-target="#exampleModalCenter" style= "margin-top:20px; margin-bottom:20px;">Interesting Fact</button>
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalCenterTitle">Did you know?</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        Her famous friends included Charles Dickens and Florence Nightingale.
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+					<!--MODAL -->
+					<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+					  <div class="modal-dialog modal-dialog-centered" role="document">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <h5 class="modal-title" id="exampleModalCenterTitle">Did you know?</h5>
+					        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					          <span aria-hidden="true">&times;</span>
+					        </button>
+					      </div>
+					      <div class="modal-body">
+					        Her famous friends included Charles Dickens and Florence Nightingale.
+					      </div>
+					      <div class="modal-footer">
+					        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					      </div>
+					    </div>
+					  </div>
+					</div>
 
 
-	<h2><small class="text-muted">Her Family</small></h2>
+					<h2><small class="text-muted">Her Family</small></h2>
 					<p>
 						Lovelace was the only legitimate child of the poet Lord Byron and his wife Anne Isabella "Annabella" Milbanke, Lady Wentworth. All of Byron's other children were born out of wedlock to other women. Byron separated from his wife a month after
 						Ada was born and left England forever four months later. He commemorated the parting in a poem that begins, "Is thy face like thy mother's my fair child! ADA! sole daughter of my house and heart?". He died of disease in the Greek War of
@@ -94,8 +91,9 @@ ls
 						Byron and was, upon her eventual death, buried next to him at her request. She was often ill in her childhood. Ada married William King in 1835. King was made Earl of Lovelace in 1838, and Ada in turn became Countess of Lovelace.She died of
 						uterine cancer in 1852 at the age of 36.
 					</p>
+				</div><!--END OF COLUMN 1 -->
 
-				</div>
+				<!--COLUMN 2 -->
 				<div class="col-md-4">
 					<h2><small class="text-muted">Childhood</small></h2>
 					<p>
@@ -111,7 +109,9 @@ ls
 						number-crunching, while many others, including Babbage himself, focused only on those capabilities. Her mindset of "poetical science" led her to ask questions about the Analytical Engine (as shown in her notes) examining how individuals and
 						society relate to technology as a collaborative tool.
 					</p>
-				</div>
+				</div><!--END OF COLUMN 2 -->
+
+				<!--COLUMN 3 -->
 				<div class="col-md-4">
 					<img id="code_image" src="images/frontEnd.gif" alt="An animated GIF which shows code turning into a mobile device." />
 					<blockquote>
@@ -119,38 +119,34 @@ ls
 							The more I study, the more insatiable do I feel my genius for it to be.
 						</h3>
 					</blockquote>
-				</div>
-			</div>
-	</section>
+				</div><!--END OF COLUMN 3 -->
+			</div><!--END OF ROW -->
+	</section><!--END OF SECTION -->
 
 	<section id="about" class="text-center">
 		<div class="container">
 			<h2><small>Our mission</small><br />Recognising what women have achieved through code</h2>
-
-		</div>
+		</div><!--END OF CONTAINER-->
 		<div id="social-buttons">
-			<a href="https://twitter.com/Twitter
-" class="btn btn-primary btn-lg btn-twitter">Twitter</a>
+			<a href="https://twitter.com/Twitter" class="btn btn-primary btn-lg btn-twitter">Twitter</a>
 			<a href="https://en-gb.facebook.com/" class="btn btn-primary btn-lg btn-facebook">Facebook</a>
 			<a href="https://www.pinterest.co.uk/" class="btn btn-primary btn-lg btn-pinterest">Pinterest</a>
-		</div>
-		<!--closes the container tag -->
-	</section><!-- #about -->
+		</div><!--END OF SOCIAL BUTTONS -->
+	</section><!--END OF ABOUT -->
 
 	<footer id="colophon" class="text-center">
 		<div class="container">
 			<p>Made by Milly</p>
-		</div><!-- closes the container tag -->
-	</footer><!-- #colophon -->
+		</div><!--END OF CONTAINER -->
+	</footer><!--END OF COLOPHON-->
 
 </body>
+
+<!--SCRIPTS -->
 <script
   src="http://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous">
 </script>
 
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </html>

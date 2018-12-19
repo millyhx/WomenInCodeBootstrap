@@ -1,93 +1,56 @@
+/*--------------------
+  MAIN STYLING
+--------------------*/
 .content {
-  background-image: url('../images/background.jpg');
-  background-repeat:no-repeat;
-  background-size:cover;
-  border-radius:0;
-  min-height:600px;
-  margin-bottom:50px;
+  padding-top: 100px;
 }
 
-/*SCROLL BUTTON*/
+#buzz {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.content {
+  background-image: url('../images/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0;
+  min-height: 600px;
+  margin-bottom: 50px;
+}
+
+/*--------------------
+  BUTTONS
+--------------------*/
 #myBtn {
-  display:none;
-  position:fixed;
-  bottom:20px;
-  right:30px;
-  z-index:99;
-  font-size:18px;
-  border:none;
-  outline:none;
-  background-color:red;
-  color:white;
-  cursor:pointer;
-  padding:15px;
-  border-radius:4px;
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
 }
 
 #myBtn:hover {
-  background-color:#555;
+  background-color: #555;
 }
 
-}
 #about {
-  background-color: rgba(32,35,41,0.9);
-  color:#ddd;
-  padding:50px 0;
+  background-color: rgba(32, 35, 41, 0.9);
+  color: #ddd;
+  padding: 50px 0;
   margin-top: 70px;
-
-}
-
-blockquote h3 {
-  font-size:21px;
-}
-
-blockquote h3:before {
-  content:open-quote;
-  font-weight:bold;
-  font-size:100px;
-  color:orange;
-}
-
-blockquote h3:after {
-  content:close-quote;
-  font-weight:bold;
-  font-size:100px;
-  color:orange;
 }
 
 a:hover img {
-  border:10px solid #172838;
-}
-
-
-
-
-.form-inline label {
-  font-size: 20px;
-  font-weight:bold;
-  color:white;
-  width:100%;
-  justify-content: flex-start;
-}
-
-.form-inline input {
-  min-width:300px;
-  margin-right: 10px;
-}
-
-.navbar {
-  background-color:#172838;
-}
-
-.content {
-  padding-top:100px;
-}
-
-  h1 {
-  font-family: 'Share Tech Mono', monospace;
-
-  color:black;
-  background-color:white;
+  border: 10px solid #172838;
 }
 
 .btn-twitter {
@@ -103,7 +66,7 @@ a:hover img {
 }
 
 #social-buttons .btn-primary {
-  border:none;
+  border: none;
 }
 
 .btn-twitter:hover {
@@ -118,12 +81,48 @@ a:hover img {
   background-color: #d15260;
 }
 
-
+/*--------------------
+  FONT STYLING
+--------------------*/
+h1 {
+  font-family: 'Share Tech Mono', monospace;
+  color: black;
+  background-color: white;
+}
 
 h2 {
-  margin-bottom:50px;
-  margin-top:50px;
+  margin-bottom: 50px;
+  margin-top: 50px;
   font-family: 'Share Tech Mono', monospace;
+}
+
+h2 {
+  font-family: 'VT323', monospace;
+}
+
+p {
+  font-size: 20px;
+}
+
+/*--------------------
+  QUOTES
+--------------------*/
+blockquote h3 {
+  font-size: 21px;
+}
+
+blockquote h3:before {
+  content: open-quote;
+  font-weight: bold;
+  font-size: 100px;
+  color: orange;
+}
+
+blockquote h3:after {
+  content: close-quote;
+  font-weight: bold;
+  font-size: 100px;
+  color: orange;
 }
 
 blockquote {
@@ -131,109 +130,122 @@ blockquote {
 }
 
 .blockquote-footer {
-  font-size:70%;
-}
-
-#buzz {
-  padding-top:50px;
-  padding-bottom:50px;
-}
-
-#colophon {
-  padding-top:50px;
-
-}
-
-#colophon p {
-  font-size:80%;
-  color:black;
-}
-
-
-
-.form-inline button {
-    margin-top:10px;
-  }
-}
-
-h2 {
-  font-family: 'VT323', monospace;
+  font-size: 70%;
 }
 
 #quote-ada {
-  padding-top:300px;
-  padding-bottom:300px;
-  font-size:35px;
-  background-color:#ffba66;
-  color:black;
+  padding-top: 300px;
+  padding-bottom: 300px;
+  font-size: 35px;
+  background-color: #ffba66;
+  color: black;
   border-radius: 15px;
-  margin-top:100px;
+  margin-top: 100px;
   font-style: italic;
 }
 
 #quote-katherine {
-  padding-top:500px;
-  padding-bottom:300px;
-  font-size:35px;
-  background-color:#79d279;
-  color:black;
+  padding-top: 500px;
+  padding-bottom: 300px;
+  font-size: 35px;
+  background-color: #79d279;
+  color: black;
   border-radius: 15px;
-  margin-top:100px;
+  margin-top: 100px;
   font-style: italic;
 }
 
 #quote-grace {
-  padding-top:300px;
-  padding-bottom:300px;
-  font-size:35px;
-  background-color:#ffb3db;
-  color:black;
+  padding-top: 300px;
+  padding-bottom: 300px;
+  font-size: 35px;
+  background-color: #ffb3db;
+  color: black;
   border-radius: 15px;
-  margin-top:100px;
+  margin-top: 100px;
   font-style: italic;
-  margin-bottom:100px;
+  margin-bottom: 100px;
 }
 
-p {
-  font-size:20px;
+/*--------------------
+  FORM
+--------------------*/
+.form-inline label {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  width: 100%;
+  justify-content: flex-start;
 }
 
+.form-inline input {
+  min-width: 300px;
+  margin-right: 10px;
+}
+
+.form-inline button {
+  margin-top: 10px;
+}
+
+/*--------------------
+  NAVIGATION BAR
+--------------------*/
+.navbar {
+  background-color: #172838;
+}
+
+/*--------------------
+  IMAGES
+--------------------*/
 #code_image {
-  margin-top:50px;
-  border-radius:15px;
-  width:100%;
-  height:25%;
+  margin-top: 50px;
+  border-radius: 15px;
+  width: 100%;
+  height: 25%;
 }
 
-/*media queries */
+/*--------------------
+  FOOTER
+--------------------*/
+#colophon {
+  padding-top: 50px;
+}
 
+#colophon p {
+  font-size: 80%;
+  color: black;
+}
+
+/*--------------------
+  MEDIA QUERIES
+--------------------*/
 @media screen and (min-width: 1024px) {
   #code_image {
-    margin-top:50px;
-    border-radius:15px;
-    width:100%;
-    height:25%;
+    margin-top: 50px;
+    border-radius: 15px;
+    width: 100%;
+    height: 25%;
   }
 
   #binary_image {
-    margin-top:100px;
-    border-radius:15px;
-    width:100%;
-    height:20%;
+    margin-top: 100px;
+    border-radius: 15px;
+    width: 100%;
+    height: 20%;
   }
 
   #buzz {
-    padding-top:50px;
-    padding-bottom:50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 
   #colophon {
-    padding-top:50px;
+    padding-top: 50px;
   }
 
   h2 {
-    margin-bottom:50px;
-    margin-top:50px;
+    margin-bottom: 50px;
+    margin-top: 50px;
   }
 
   blockquote {
@@ -241,45 +253,43 @@ p {
   }
 
   .blockquote-footer {
-    font-size:70%;
+    font-size: 70%;
   }
 
   .content {
     background-image: url('../images/background.jpg');
-    background-repeat:no-repeat;
-    background-size:cover;
-    border-radius:0;
-    min-height:600px;
-    margin-bottom:50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0;
+    min-height: 600px;
+    margin-bottom: 50px;
   }
 
   #about {
-    background-color: rgba(32,35,41,0.9);
-    color:#ddd;
-    padding:50px 0;
+    background-color: rgba(32, 35, 41, 0.9);
+    color: #ddd;
+    padding: 50px 0;
     margin-top: 70px;
-
   }
 
   .form-inline label {
     font-size: 20px;
-    font-weight:bold;
-    color:white;
-    width:100%;
+    font-weight: bold;
+    color: white;
+    width: 100%;
     justify-content: flex-start;
   }
 
   .form-inline input {
-    min-width:300px;
+    min-width: 300px;
     margin-right: 10px;
   }
 
   .navbar {
-    background-color:#172838;
+    background-color: #172838;
   }
 
   .content {
-    padding-top:100px;
+    padding-top: 100px;
   }
-
 }

@@ -6,54 +6,43 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono|VT323" rel="stylesheet">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-	<script src ="script.js"></script>
+	<script src="script.js"></script>
 	<link rel="stylesheet" href="css/custom.css" />
 </head>
 
 <body>
-<button onclick="topFunction()" class="btn btn-primary btn-lg" id="myBtn" title="Go to top">Go to top</button>
+	<!--BUTTON FOR USER TO SCROLL TO TOP OF THE PAGE-->
+	<button onclick="topFunction()" class="btn btn-primary btn-lg" id="myBtn" title="Go to top">Go to top</button>
+
+	<!--NAVIGATION BAR-->
 	<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
 		<div class="container-fluid">
-			<a class="navbar-brand" href="index.html">
-				Women In Code</a>
-			<button class="navbar-toggler" type="button" ...>
-				<span class="navbar-toggler-icon"></span>
-			</button>
+			<a class="navbar-brand" href="index.html">Women In Code</a>
+			<button class="navbar-toggler" type="button" ...><span class="navbar-toggler-icon"></span></button>
 			<div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
 				<div class="navbar-nav">
-
 					<a class="nav-item nav-link btn btn-outline-success" href="index.html">Home</a>
-
 					<a class="nav-item nav-link" href="ada.html">Ada Lovelace </a>
-
 					<a class="nav-item nav-link" href="katherine.html">Katherine Johnson </a>
 					<a class="nav-item nav-link" href="grace.html">Grace Hopper </a>
+				</div><!--END OF NAVBAR-->
+			</div><!--END OF COLLAPSE NAVBAR-->
+		</div><!--END OF CONTAINER-->
+	</nav><!--END OF NAVIGATION BAR-->
 
-
-				</div>
-			</div>
-		</div>
-		<!--closes the container tag -->
-
-
-	</nav>
+<!--FIRST SECTION-->
 	<header class="content">
 		<div class="containter-fluid">
 			<div class="row">
 				<div class="col-md-8">
 					<h1 class="display-4">Women IT Pioneers</h1>
 				</div>
-				<!--/.col-md-8 -->
+				<div class="col-md-4"></div>
+			</div><!--END OF ROW-->
+		</div><!--END OF CONTAINER-->
+	</header>
 
-				<div class="col-md-4">
-				</div>
-				<!--/.col-md-4 -->
-			</div>
-			<!--/.row of content -->
-		</div>
-		<!--closes the container tag -->
-	</header><!-- .content -->
-
+<!--CAROUSEL-->
 	<div id="carouselExampleIndicators" class=" container carousel slide" data-ride="carousel">
 		<ol class="carousel-indicators justify-content-start">
 			<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -69,15 +58,15 @@
 			</div>
 			<div class="carousel-item">
 				<img class="d-block w-100" src="images/gracebw.jpg" alt="A black and white picture of grace hopper standing in a room holding a book.">
-					<div class="carousel-caption d-none d-md-block">
-				<h3 class="h1 text-left">Grace Hopper</h3>
-					</div>
+				<div class="carousel-caption d-none d-md-block">
+					<h3 class="h1 text-left">Grace Hopper</h3>
+				</div>
 			</div>
 			<div class="carousel-item">
 				<img class="d-block w-100" src="images/katherinebw.png" alt="A black and white picture of katherine johnson.">
-						<div class="carousel-caption d-none d-md-block">
-				<h3 class="h1 text-left">Katherine Johnson</h3>
-					 </div>
+				<div class="carousel-caption d-none d-md-block">
+					<h3 class="h1 text-left">Katherine Johnson</h3>
+				</div>
 			</div>
 		</div>
 		<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -90,116 +79,95 @@
 		</a>
 	</div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!--SECOND SECTION-->
 	<section id="second-section" class="text-center">
 		<div class="container-fluid">
-
 			<h1 class="display-3">Who are they?</h1>
-			<div class="row">
+				<div class="row">
 
-				<div class="col-sm-4">
-					<a href="ada.html"><img class="float-left w-100 p-3 h-100 d-inline-block rounded ada" src="images/ada.jpg" alt="An illustration of Ada Lovelace, with a green background and a banner stating her name."></a>
-					<h2>Ada Lovelace</h2>
-				</div>
+					<!--COLUMN 1-->
+					<div class="col-sm-4">
+						<a href="ada.html"><img class="float-left w-100 p-3 h-100 d-inline-block rounded ada" src="images/ada.jpg" alt="An illustration of Ada Lovelace, with a green background and a banner stating her name."></a>
+						<h2>Ada Lovelace</h2>
+					</div>
 
-				<div class="col-sm-4">
-					<a href="katherine.html"><img class="float-left w-100 p-3 h-100 d-inline-block rounded" src="images/katherine.png" alt="An illustration of Katherine Johnson, with a green background and a banner stating her name."></a>
-					<h2>Katherine Johnson</h2>
-				</div>
+					<!--COLUMN 2-->
+					<div class="col-sm-4">
+						<a href="katherine.html"><img class="float-left w-100 p-3 h-100 d-inline-block rounded" src="images/katherine.png" alt="An illustration of Katherine Johnson, with a green background and a banner stating her name."></a>
+						<h2>Katherine Johnson</h2>
+					</div>
 
-				<div class="col-sm-4">
-					<a href="grace.html"><img class="float-left w-100 p-3 h-100 d-inline-block rounded" src="images/grace.jpg" alt="An illustration of Grace Hopper, with a green background and a banner stating her name."></a>
-					<h2>Grace Hopper</h2>
-				</div>
-			</div>
-		</div>
-		</div>
-		</div>
-	</section>
+					<!--COLUMN 3-->
+					<div class="col-sm-4">
+						<a href="grace.html"><img class="float-left w-100 p-3 h-100 d-inline-block rounded" src="images/grace.jpg" alt="An illustration of Grace Hopper, with a green background and a banner stating her name."></a>
+						<h2>Grace Hopper</h2>
+					</div>
+				</div><!--END OF ROW-->
+			</div><!--END OF CONTAINER-->
+		</section><!--END OF SECTION-->
 
+
+<!--THIRD SECTION-->
 	<section id="third-section" class="text-center">
 		<div class="container-fluid">
-
-
 			<div class="row">
 
+				<!--COLUMN 1-->
 				<div class="col-md-4">
 					<ul class="list-group list-group-flush">
 						<li class="list-group-item"><strong>Born: </strong>10th December 1815</li>
 						<li class="list-group-item"><strong>Died:</strong> 27 November 1852</li>
 						<li class="list-group-item"><strong>Known for:</strong> Served as United States Navy as Rear Admiral</li>
 					</ul>
-
 				</div>
 
+				<!--COLUMN 2-->
 				<div class="col-md-4">
 					<ul class="list-group list-group-flush">
 						<li class="list-group-item"><strong>Born:</strong> 9th December 1906 </li>
 						<li class="list-group-item"><strong>Died:</strong> 1st January 1992</li>
 						<li class="list-group-item"><strong>Known for:</strong> Served as United States Navy as Rear Admiral</li>
 					</ul>
-
 				</div>
 
+				<!--COLUMN 3-->
 				<div class="col-md-4">
 					<ul class="list-group list-group-flush">
 						<li class="list-group-item"><strong>Born:</strong> 9th December 1906 </li>
 						<li class="list-group-item"><strong>Died:</strong> 1st January 1992</li>
 						<li class="list-group-item"><strong>Known for:</strong> Served as United States Navy as Rear Admiral</li>
 					</ul>
-
 				</div>
+			</div><!--END OF ROW-->
+		</div><!--END OF CONTAINER-->
+	</section><!--END OF SECTION-->
 
-			</div>
-		</div>
-		</div>
-		</div>
-	</section>
-
+	<!--ABOUT SECTION-->
 	<section id="about" class="text-center">
 		<div class="container-fluid">
 			<h2><small>Women IT Pioneers</small><br />Recognising what women have achieved through code</h2>
-
 			<p class="lead">Ada Lovelace, a british mathematician and computer engineer.</p>
 			<p class="lead">Katherine Johnson, an African-American mathematician who worked for NASA.</p>
 			<p class="lead">Grace Hopper, one of the first computer programmers to work on the Harvard Mark l.</p>
 
+	<!--SOCIAL MEDIA BUTTONS-->
 			<div id="social-buttons">
-				<a href="https://twitter.com/Twitter
-" class="btn btn-primary btn-lg btn-twitter">Twitter</a>
+				<a href="https://twitter.com/Twitter" class="btn btn-primary btn-lg btn-twitter">Twitter</a>
 				<a href="https://en-gb.facebook.com/" class="btn btn-primary btn-lg btn-facebook">Facebook</a>
 				<a href="https://www.pinterest.co.uk/" class="btn btn-primary btn-lg btn-pinterest">Pinterest</a>
 			</div>
-		</div>
-		<!--closes the container tag -->
-	</section><!-- #about -->
+		</div><!--END OF CONTAINER-->
+	</section><!--END OF ABOUT SECTION-->
 
+	<!--FOOTER-->
 	<footer id="colophon" class="text-center">
 		<div class="container">
 			<p>Made by Milly</p>
-		</div><!-- closes the container tag -->
-	</footer><!-- #colophon -->
+		</div><!--END OF CONTAINER-->
+	</footer><!--END OF FOOTER-->
 
 </body>
-<script
-  src="http://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous">
+<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous">
 </script>
-
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </html>
